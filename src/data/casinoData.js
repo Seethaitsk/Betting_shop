@@ -238,11 +238,34 @@ export const REF1_TOP_GAMES = [
   }
 ];
 
-export const REF1_TABLE_GAMES = [
-  { id: 't1', name: 'European Roulette', image: '/assets/promo_roulette_wheel.jpg' },
-  { id: 't2', name: 'Video Poker', image: '/assets/promo_cards_bonus.jpg' },
-  { id: 't3', name: 'Speed Baccarat', image: '/assets/live_casino_croupier.jpg' },
-  { id: 't4', name: 'Plinko Drop', image: '/assets/game_plinko.png' },
-  { id: 't5', name: 'Dragon Tiger', image: '/assets/game_dragon_hatch.jpg' }
+export const REF1_ALL_GAMES = [
+  {
+    id: 'all1',
+    name: 'Aviator Pro',
+    title: 'Aviator Pro',
+    desc: 'High-altitude crash multiplier up to 1,000x with instant cashout',
+    image: '/assets/game_aviator.png',
+    cardClass: 'offer-card-aviator',
+    theme: 'red'
+  },
+  {
+    id: 'all2',
+    name: 'Lucky Mines',
+    title: 'Lucky Mines',
+    desc: 'Uncover hidden emerald diamonds and multiplier crystals safely',
+    image: '/assets/game_mines.png',
+    cardClass: 'offer-card-mines',
+    theme: 'teal'
+  },
+  {
+    id: 'all3',
+    name: 'Dragon Hatch',
+    title: 'Dragon Hatch',
+    desc: 'Awaken ancient fire dragons for cascading cluster reel multipliers',
+    image: '/assets/game_dragon_hatch.jpg',
+    cardClass: 'offer-card-dragon',
+    theme: 'amber'
+  }
 ];
+
 

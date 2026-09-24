@@ -7,7 +7,8 @@ import DepositPromoBanner from './bonus';
 import {
   money,
   REF1_HOT_GAMES,
-  REF1_TOP_GAMES
+  REF1_TOP_GAMES,
+  REF1_ALL_GAMES
 } from '../data/casinoData';
 
 export default function LobbyView({
@@ -149,10 +150,59 @@ export default function LobbyView({
           </div>
         </section>
 
+        {/* 8. ALL GAMES SECTION (Horizontal Cards with Glow, Chamfer Accents & Arrow Actions - Same as Special Offers) */}
+        <section className="all-games-ref1-section" style={{ marginBottom: '24px' }}>
+          <div className="section-header-ref1">
+            <div className="section-title-ref1">
+              <span className="star-icon">⭐</span> All Games
+            </div>
+            <button
+              type="button"
+              className="badge-all-yellow"
+              onClick={() => onPlayGame('All Games')}
+            >
+              ALL &gt;
+            </button>
+          </div>
 
+          <div className="special-offers-ref1-grid">
+            {REF1_ALL_GAMES.map((g) => (
+              <div
+                key={g.id}
+                className={`offer-card-ref1 ${g.cardClass}`}
+                onClick={() => onPlayGame(g.name)}
+              >
+                <div className="offer-card-glow" />
+                <div className="offer-card-corner top-left" />
+                <div className="offer-card-corner top-right" />
+                <div className="offer-card-corner bottom-left" />
+                <div className="offer-card-corner bottom-right" />
 
-        {/* 9. SPECIAL OFFERS (From 1st Image: 3 Cards Side-by-Side) */}
-        {/* 9. SPECIAL OFFERS (Horizontal Cards with Glow, Chamfer Accents & Arrow Actions) */}
+                <div className="offer-art-wrapper">
+                  <img
+                    src={g.image}
+                    alt={g.name}
+                    className="offer-icon-ref1"
+                  />
+                </div>
+
+                <div className="offer-content-ref1">
+                  <h4 className="offer-title-ref1">{g.title}</h4>
+                  <p className="offer-desc-ref1">{g.desc}</p>
+                </div>
+
+                <div className="offer-arrow-btn" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 5l7 7-7 7" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* 9. SPECIAL OFFERS (Commented out) */}
+        {/*
         <section className="special-offers-ref1-section">
           <div className="section-header-ref1">
             <div className="section-title-ref1">
@@ -161,7 +211,6 @@ export default function LobbyView({
           </div>
 
           <div className="special-offers-ref1-grid">
-            {/* Offer 1: Loyalty Chests */}
             <div
               className="offer-card-ref1 offer-card-loyalty"
               onClick={() => onPlayGame('Loyalty Chests')}
@@ -192,7 +241,6 @@ export default function LobbyView({
               </div>
             </div>
 
-            {/* Offer 2: Cashdrop Cashback */}
             <div
               className="offer-card-ref1 offer-card-cashdrop"
               onClick={() => onPlayGame('Cashdrop Cashback')}
@@ -223,7 +271,6 @@ export default function LobbyView({
               </div>
             </div>
 
-            {/* Offer 3: Daily Zero Loss */}
             <div
               className="offer-card-ref1 offer-card-zeroloss"
               onClick={() => onPlayGame('Daily Zero Loss')}
@@ -255,9 +302,10 @@ export default function LobbyView({
             </div>
           </div>
         </section>
+        */}
 
         {/* 10. EXCLUSIVE PROMO SECTION ("DEPOSIT PROMO BANNER") */}
-        <DepositPromoBanner onDeposit={onDeposit} onPlayGame={onPlayGame} />
+        {/* <DepositPromoBanner onDeposit={onDeposit} onPlayGame={onPlayGame} /> */}
       </div>
 
       <ShopFooter machine={m} code={code} />

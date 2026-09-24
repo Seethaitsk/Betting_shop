@@ -560,10 +560,80 @@ function lobbyView() {
       </div>
     </section>
 
+    <!-- 8. ALL GAMES SECTION (Horizontal Cards with Glow, Chamfer Accents & Arrow Actions) -->
+    <section class="all-games-ref1-section" style="margin-bottom: 24px;">
+      <div class="section-header-ref1">
+        <div class="section-title-ref1">
+          <span class="star-icon">⭐</span> All Games
+        </div>
+        <button class="badge-all-yellow" id="btnAllGames">ALL &gt;</button>
+      </div>
 
+      <div class="special-offers-ref1-grid">
+        <div class="offer-card-ref1 offer-card-aviator" data-game-name="Aviator Pro">
+          <div class="offer-card-glow"></div>
+          <div class="offer-card-corner top-left"></div>
+          <div class="offer-card-corner top-right"></div>
+          <div class="offer-card-corner bottom-left"></div>
+          <div class="offer-card-corner bottom-right"></div>
+          <div class="offer-art-wrapper">
+            <img src="/assets/game_aviator.png" alt="Aviator Pro" class="offer-icon-ref1">
+          </div>
+          <div class="offer-content-ref1">
+            <h4 class="offer-title-ref1">Aviator Pro</h4>
+            <p class="offer-desc-ref1">High-altitude crash multiplier up to 1,000x with instant cashout</p>
+          </div>
+          <div class="offer-arrow-btn" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 5l7 7-7 7" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"></path>
+            </svg>
+          </div>
+        </div>
 
+        <div class="offer-card-ref1 offer-card-mines" data-game-name="Lucky Mines">
+          <div class="offer-card-glow"></div>
+          <div class="offer-card-corner top-left"></div>
+          <div class="offer-card-corner top-right"></div>
+          <div class="offer-card-corner bottom-left"></div>
+          <div class="offer-card-corner bottom-right"></div>
+          <div class="offer-art-wrapper">
+            <img src="/assets/game_mines.png" alt="Lucky Mines" class="offer-icon-ref1">
+          </div>
+          <div class="offer-content-ref1">
+            <h4 class="offer-title-ref1">Lucky Mines</h4>
+            <p class="offer-desc-ref1">Uncover hidden emerald diamonds and multiplier crystals safely</p>
+          </div>
+          <div class="offer-arrow-btn" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 5l7 7-7 7" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"></path>
+            </svg>
+          </div>
+        </div>
 
-    <!-- 9. SPECIAL OFFERS (From 1st Image: 3 Cards Side-by-Side) -->
+        <div class="offer-card-ref1 offer-card-dragon" data-game-name="Dragon Hatch">
+          <div class="offer-card-glow"></div>
+          <div class="offer-card-corner top-left"></div>
+          <div class="offer-card-corner top-right"></div>
+          <div class="offer-card-corner bottom-left"></div>
+          <div class="offer-card-corner bottom-right"></div>
+          <div class="offer-art-wrapper">
+            <img src="/assets/game_dragon_hatch.jpg" alt="Dragon Hatch" class="offer-icon-ref1">
+          </div>
+          <div class="offer-content-ref1">
+            <h4 class="offer-title-ref1">Dragon Hatch</h4>
+            <p class="offer-desc-ref1">Awaken ancient fire dragons for cascading cluster reel multipliers</p>
+          </div>
+          <div class="offer-arrow-btn" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 5l7 7-7 7" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. SPECIAL OFFERS (Commented out) -->
+    <!--
     <section class="special-offers-ref1-section">
       <div class="section-header-ref1">
         <div class="section-title-ref1">
@@ -591,17 +661,17 @@ function lobbyView() {
         </div>
       </div>
     </section>
+    -->
 
     <!-- 10. EXCLUSIVE PROMO SECTION ("100% BONUS UP TO WIN MORE GIFTS") -->
+    <!--
     <section class="exclusive-promo-showcase-section" aria-label="100% Bonus Exclusive Promo">
       <div class="exclusive-promo-stage-card">
-        <!-- Background Ambient Glows & Light Streak -->
         <div class="promo-ambient-glow glow-left"></div>
         <div class="promo-ambient-glow glow-center"></div>
         <div class="promo-ambient-glow glow-right"></div>
         <div class="promo-light-sheen"></div>
 
-        <!-- Content Left Column -->
         <div class="promo-content-column">
           <div class="promo-tag-exclusive">
             <span class="promo-tag-crown">👑</span>
@@ -625,7 +695,6 @@ function lobbyView() {
           </div>
         </div>
 
-        <!-- Center: 3 Interactive Benefit Badges -->
         <div class="promo-benefits-column">
           <div class="benefit-hex-card benefit-mystery" title="Unlock Mystery Rewards with your deposits">
             <div class="benefit-hex-icon-box">
@@ -661,7 +730,6 @@ function lobbyView() {
           </div>
         </div>
 
-        <!-- Right: 3D Purple & Gold Gift Artwork -->
         <div class="promo-artwork-column">
           <div class="promo-art-stage">
             <div class="promo-art-radial-halo"></div>
@@ -674,6 +742,7 @@ function lobbyView() {
         </div>
       </div>
     </section>
+    -->
 
     <!-- 11. TABLE GAMES & PROVIDER ICONS (From 1st Image) -->
     <section class="table-games-ref1-section">

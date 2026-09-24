@@ -2910,6 +2910,132 @@ button {
   filter: drop-shadow(0 0 6px rgba(56, 189, 248, 0.9));
 }
 
+/* All Games Card Theme 1: Aviator (Ruby Crimson / Rose Neon Glow) */
+.offer-card-aviator {
+  background: linear-gradient(135deg, #450a0a 0%, #250407 45%, #100204 100%);
+  border-color: rgba(244, 63, 94, 0.75);
+  box-shadow: 
+    0 12px 32px rgba(0, 0, 0, 0.7),
+    0 0 18px rgba(244, 63, 94, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.offer-card-aviator .offer-card-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 18% 50%, rgba(244, 63, 94, 0.42) 0%, rgba(225, 29, 72, 0.18) 40%, transparent 70%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.offer-card-aviator .offer-card-corner.top-left,
+.offer-card-aviator .offer-card-corner.top-right,
+.offer-card-aviator .offer-card-corner.bottom-left,
+.offer-card-aviator .offer-card-corner.bottom-right {
+  border-color: #fb7185;
+  filter: drop-shadow(0 0 6px rgba(251, 113, 133, 0.9));
+}
+
+.offer-card-aviator .offer-title-ref1 {
+  color: #ffe4e8;
+}
+
+.offer-card-aviator .offer-arrow-btn {
+  border-color: rgba(244, 63, 94, 0.75);
+  color: #fb7185;
+  box-shadow: 0 0 14px rgba(244, 63, 94, 0.28);
+}
+
+.offer-card-aviator:hover .offer-arrow-btn {
+  background: rgba(244, 63, 94, 0.2);
+  border-color: #fda4af;
+  box-shadow: 0 0 20px rgba(244, 63, 94, 0.6);
+}
+
+/* All Games Card Theme 2: Lucky Mines (Emerald / Teal Cyan Neon Glow) */
+.offer-card-mines {
+  background: linear-gradient(135deg, #042f2e 0%, #031c24 45%, #020d14 100%);
+  border-color: rgba(20, 184, 166, 0.75);
+  box-shadow: 
+    0 12px 32px rgba(0, 0, 0, 0.7),
+    0 0 18px rgba(20, 184, 166, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.offer-card-mines .offer-card-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 18% 50%, rgba(20, 184, 166, 0.42) 0%, rgba(6, 182, 212, 0.2) 40%, transparent 70%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.offer-card-mines .offer-card-corner.top-left,
+.offer-card-mines .offer-card-corner.top-right,
+.offer-card-mines .offer-card-corner.bottom-left,
+.offer-card-mines .offer-card-corner.bottom-right {
+  border-color: #2dd4bf;
+  filter: drop-shadow(0 0 6px rgba(45, 212, 191, 0.9));
+}
+
+.offer-card-mines .offer-title-ref1 {
+  color: #ccfbf1;
+}
+
+.offer-card-mines .offer-arrow-btn {
+  border-color: rgba(20, 184, 166, 0.75);
+  color: #2dd4bf;
+  box-shadow: 0 0 14px rgba(20, 184, 166, 0.28);
+}
+
+.offer-card-mines:hover .offer-arrow-btn {
+  background: rgba(20, 184, 166, 0.2);
+  border-color: #5eead4;
+  box-shadow: 0 0 20px rgba(20, 184, 166, 0.6);
+}
+
+/* All Games Card Theme 3: Dragon Hatch (Fiery Amber / Warm Gold Glow) */
+.offer-card-dragon {
+  background: linear-gradient(135deg, #431407 0%, #270b04 45%, #120401 100%);
+  border-color: rgba(249, 115, 22, 0.75);
+  box-shadow: 
+    0 12px 32px rgba(0, 0, 0, 0.7),
+    0 0 18px rgba(249, 115, 22, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.offer-card-dragon .offer-card-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 18% 50%, rgba(249, 115, 22, 0.42) 0%, rgba(245, 158, 11, 0.18) 40%, transparent 70%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.offer-card-dragon .offer-card-corner.top-left,
+.offer-card-dragon .offer-card-corner.top-right,
+.offer-card-dragon .offer-card-corner.bottom-left,
+.offer-card-dragon .offer-card-corner.bottom-right {
+  border-color: #fb923c;
+  filter: drop-shadow(0 0 6px rgba(251, 146, 60, 0.9));
+}
+
+.offer-card-dragon .offer-title-ref1 {
+  color: #ffedd5;
+}
+
+.offer-card-dragon .offer-arrow-btn {
+  border-color: rgba(249, 115, 22, 0.75);
+  color: #fb923c;
+  box-shadow: 0 0 14px rgba(249, 115, 22, 0.28);
+}
+
+.offer-card-dragon:hover .offer-arrow-btn {
+  background: rgba(249, 115, 22, 0.2);
+  border-color: #fdba74;
+  box-shadow: 0 0 20px rgba(249, 115, 22, 0.6);
+}
+
 /* 3D Art Icon */
 .offer-art-wrapper {
   position: relative;
